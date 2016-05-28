@@ -4,7 +4,7 @@ Taller MakerLab Frontend
 ### Tercera Clase
 ## Bootstrap
 
-url: 
+url: http://parakawa.github.io/MKL-Clase/3era-clase/bootstrap/
 
 ## Javascript
-url:
+url: http://parakawa.github.io/MKL-Clase/3era-clase/ejercicios-js/
