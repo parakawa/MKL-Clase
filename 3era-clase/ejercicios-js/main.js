@@ -1,5 +1,16 @@
 /*Variables*/
 
+function suma(){
+	var a=parseInt(prompt("Ingresa un número"))
+	var b=parseInt(prompt("Ingresa un segundo número"))
+	var suma=a+b;
+	console.log(suma)
+}
+
+function suma(a,b){
+	console.log(a+b);
+}
+
 function division(){
 	var D=parseInt(prompt("Ingresa el dividendo: ")),
 		d=parseInt(prompt("Ingresa el divisor: "));
@@ -30,12 +41,11 @@ function determinante(){
 
 function mayor(){
 	var a=parseFloat(prompt("Ingresa el primer número: ")),
-		b=parseFloat(prompt("Ingresa el segundo número: ")),
-		mayor=a;
-		if(a<=b)
+	b=parseFloat(prompt("Ingresa el segundo número: ")),
+	mayor=a;
+		if(mayor<=b)
 			mayor=b;
 		alert("El mayor es: "+mayor);
-
 }
 
 function positivo(){
@@ -52,16 +62,41 @@ function banquete(){
 
 
 /*Estructuras Repetitivas*/
+function whileDiez(){
+	var i=1;
+	while(i<=4){
+		console.log(i)
+		i=i+1
+	}
+}
+
+
 function sumaWhile(){
-	/*inserta tu código aquí*/
+	var i=1,
+	suma=0;
+	while(i<=4){
+		suma=suma+i;
+		i++
+	}
+	alert("La suma es "+suma)
 }
 
 function sumaDoWhile(){
-	/*inserta tu código aquí*/
+	var i=1;
+	suma=0;
+	do{
+		suma=suma+i;
+		i=i+1;
+	}while(i<=4)
+	console.log(suma);
 }
 
 function sumaFor(){
-	/*inserta tu código aquí*/
+	
+	for(i=1;i<=4;i++){
+		suma=suma+i;
+	}
+	alert(suma);
 }
 
 function paresCien(){
